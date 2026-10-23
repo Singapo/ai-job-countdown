@@ -3,7 +3,7 @@
 ## GitHub 仓库信息
 
 - 仓库名建议：`ai-job-countdown`
-- Description：`你的工作，距离 AI 接管还有多久？一个从真实任务出发，生成条件情景、30 天行动与匿名分享卡的 Agent Skill。`
+- Description：`取代倒计时：你这活儿，到底有多少本来就是 AI 的活儿？嘴损、讲证据、给出路的 AI 职场压力测试 Skill。`
 - Topics：`agent-skills`、`ai`、`future-of-work`、`career`、`automation`、`productivity`、`chinese`
 - 许可证：本仓库的 [MIT License](../LICENSE)。
 
@@ -27,17 +27,17 @@ npx skills add Singapo/ai-job-countdown --skill ai-job-countdown
 发布文案：
 
 ```text
-你的工作，距离 AI 接管还有多久？
+你这活儿，到底有多少本来就是 AI 的活儿？
 
-我做了一个开源 Agent Skill：AI Job Countdown / 工作倒计时。
-聊聊你最近一周具体做了什么，它会分析哪些任务能与 AI 协作、
-哪些有条件代办、哪些已经有代办证据，哪些还需要人来主导。
+我做了一个开源 Agent Skill：AI Job Countdown / 取代倒计时。
+把你一周的工作摊开，它会像个嘴损的朋友一样给你报坏消息：
+哪块活儿已经被接走了，哪块只差公司开权限，哪块 AI 还接不住。
 
-报告包括有前提的情景时间窗、会改变判断的信号，
-以及一份有验收标准的 30 天行动。信息不足时，会写明无法估计。
+嘴损得有依据。它会把任务证据、有前提的时间窗和本月自救动作说清楚。
+证据不够就说算不出来，不给你编一个失业日。
 
 仓库里放了两份产品经理案例：一个偏交付，一个偏探索。
-希望它帮你找出下一步值得验证的变化。
+看看你是在替 AI 热身，还是确实有它接不住的活儿。
 
 欢迎试用，也欢迎用匿名案例和反例挑战它。
 https://github.com/Singapo/ai-job-countdown

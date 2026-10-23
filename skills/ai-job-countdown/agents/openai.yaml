@@ -1,4 +1,4 @@
 interface:
-  display_name: "工作倒计时 · AI Job Countdown"
-  short_description: "拆解真实工作任务，分析 AI 接管的条件与时间窗，并给出可验证的 30 天行动"
-  default_prompt: "使用 $ai-job-countdown 分析我的工作多久会被 AI 取代，先了解实际任务，再给出条件情景和 30 天行动。"
+  display_name: "取代倒计时 · AI Job Countdown"
+  short_description: "用嘴损但讲证据的损友口吻，拆开你的工作，看看 AI 盯上了哪块活儿，以及本月怎么自救"
+  default_prompt: "使用 $ai-job-countdown，用坏消息来了的损友口吻拆解我的工作，告诉我哪块活儿被 AI 盯上了，以及本月怎么自救。"
