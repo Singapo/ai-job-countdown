@@ -1,4 +1,4 @@
 interface:
   display_name: "取代倒计时 · AI Job Countdown"
-  short_description: "用嘴损但讲证据的损友口吻，拆开你的工作，看看 AI 盯上了哪块活儿，以及本月怎么自救"
-  default_prompt: "使用 $ai-job-countdown，用坏消息来了的损友口吻拆解我的工作，告诉我哪块活儿被 AI 盯上了，以及本月怎么自救。"
+  short_description: "让 AI 接班人来催你交接：直接开怼、拿证据补刀，拆出该交的任务和你还得负责的事"
+  default_prompt: "使用 $ai-job-countdown，像 AI 接班人来催交接一样直接开怼，告诉我哪块就是 AI 的活儿、凭什么，以及交接后我还得负责什么。"

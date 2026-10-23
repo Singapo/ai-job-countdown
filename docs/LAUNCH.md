@@ -3,7 +3,7 @@
 ## GitHub 仓库信息
 
 - 仓库名建议：`ai-job-countdown`
-- Description：`取代倒计时：你这活儿，到底有多少本来就是 AI 的活儿？嘴损、讲证据、给出路的 AI 职场压力测试 Skill。`
+- Description：`取代倒计时：你这就是 AI 的活儿，赶紧写交接文档吧。让 AI 接班人直接开怼、拿证据补刀的职场压力测试 Skill。`
 - Topics：`agent-skills`、`ai`、`future-of-work`、`career`、`automation`、`productivity`、`chinese`
 - 许可证：本仓库的 [MIT License](../LICENSE)。
 
@@ -27,13 +27,13 @@ npx skills add Singapo/ai-job-countdown --skill ai-job-countdown
 发布文案：
 
 ```text
-你这活儿，到底有多少本来就是 AI 的活儿？
+你这就是 AI 的活儿，赶紧给 AI 写交接文档吧。
 
 我做了一个开源 Agent Skill：AI Job Countdown / 取代倒计时。
-把你一周的工作摊开，它会像个嘴损的朋友一样给你报坏消息：
-哪块活儿已经被接走了，哪块只差公司开权限，哪块 AI 还接不住。
+把你一周的工作摊开，让 AI 接班人上门催交接：
+哪块早该交了，哪块还在感谢公司没接 API，哪块它根本交不了卷。
 
-嘴损得有依据。它会把任务证据、有前提的时间窗和本月自救动作说清楚。
+直接开怼，拿证据补刀。给出任务判词、有前提的时间窗和本月交接或验证动作。
 证据不够就说算不出来，不给你编一个失业日。
 
 仓库里放了两份产品经理案例：一个偏交付，一个偏探索。
