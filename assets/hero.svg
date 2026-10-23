@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">AI Job Countdown · 工作倒计时</title>
+  <desc id="desc">你的工作，距离 AI 接管还有多久？拆解真实任务，给出条件时间窗与三十天行动。情景分析，非失业预测。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111621"/><stop offset="1" stop-color="#182331"/></linearGradient>
+  </defs>
+  <rect width="1280" height="640" rx="24" fill="url(#bg)"/>
+  <g font-family="'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+    <rect x="60" y="58" width="10" height="20" rx="3" fill="#b2f584"/>
+    <text x="84" y="76" font-size="18" font-weight="600" letter-spacing="2" fill="#c3ccd6">AI JOB COUNTDOWN</text>
+    <text x="60" y="185" font-size="58" font-weight="700" fill="#f5f7fa">你的工作，</text>
+    <text x="60" y="264" font-size="58" font-weight="700" fill="#f5f7fa">距离 AI 接管</text>
+    <text x="60" y="343" font-size="58" font-weight="700" fill="#b2f584">还有多久？</text>
+    <text x="64" y="412" font-size="23" fill="#bac5d2">一次针对真实工作任务的压力测试。</text>
+    <rect x="64" y="460" width="156" height="44" rx="22" fill="#263240"/>
+    <text x="142" y="489" font-size="18" text-anchor="middle" fill="#e5ebf1">任务接管地图</text>
+    <rect x="232" y="460" width="156" height="44" rx="22" fill="#263240"/>
+    <text x="310" y="489" font-size="18" text-anchor="middle" fill="#e5ebf1">条件时间窗</text>
+    <rect x="400" y="460" width="156" height="44" rx="22" fill="#263240"/>
+    <text x="478" y="489" font-size="18" text-anchor="middle" fill="#e5ebf1">30 天行动</text>
+    <rect x="712" y="105" width="508" height="434" rx="20" fill="#1c2937" stroke="#3b4b5e"/>
+    <text x="744" y="151" font-size="16" fill="#a8b6c6" letter-spacing="2">WORK / REWIRED</text>
+    <text x="744" y="204" font-size="30" font-weight="600" fill="#f5f7fa">从职位名称，看到真实任务。</text>
+    <path d="M744 232H1188" stroke="#3b4b5e"/>
+    <text x="744" y="278" font-size="20" fill="#a8b6c6">先变的</text><text x="852" y="278" font-size="22" fill="#f5f7fa">哪些产出更容易被接管？</text>
+    <text x="744" y="335" font-size="20" fill="#a8b6c6">决定性的</text><text x="852" y="335" font-size="22" fill="#f5f7fa">企业还缺哪一步？</text>
+    <text x="744" y="392" font-size="20" fill="#a8b6c6">你能做的</text><text x="852" y="392" font-size="22" fill="#b2f584">用一次小实验验证判断。</text>
+    <rect x="744" y="442" width="444" height="60" rx="10" fill="#111c26"/>
+    <text x="966" y="479" font-size="19" text-anchor="middle" fill="#cbd8e6">情景分析，非失业预测</text>
+    <text x="64" y="587" font-size="17" fill="#91a2b6">AGENT SKILL · OPEN SOURCE · MIT</text>
+  </g>
+</svg>

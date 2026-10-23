@@ -1,0 +1,10 @@
+# Local experiments and private reports
+.tmp/
+private/
+node_modules/
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
