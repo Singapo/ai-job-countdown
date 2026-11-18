@@ -30,7 +30,7 @@ dsh plugin --profile web add https://github.com/Singapo/ai-job-countdown/release
 
 `web` 应替换成实际 Profile。也支持 `dsh plugin --profile web add github:Singapo/ai-job-countdown`。仓库直接分发 JavaScript 和 Markdown，没有源码构建步骤。安装与 Profile 关系以 [DSH 官方发布文档](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/publish.md)为准；Desktop 应使用应用内管理的 Profile。
 
-市场投稿目标为社区目录 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)，通过一个 `data/plugins/Singapo__ai-job-countdown.yml` 条目提交。PR 已提交、CI 通过、维护者合并和市场同步是不同状态；以实际链接和状态为准，不提前宣称已收录。
+市场投稿目标为社区目录 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)。2026-11-18 已提交 [PR #16593](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/16593)，只新增 `data/plugins/Singapo__ai-job-countdown.yml` 一个条目。PR 已提交、CI 通过、维护者合并和市场同步是不同状态；以实际链接和状态为准，不提前宣称已收录。
 
 ## 验证边界
 

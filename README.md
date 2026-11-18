@@ -62,6 +62,8 @@ dsh plugin --profile web add https://github.com/Singapo/ai-job-countdown/release
 
 插件只注册这一项技能，不修改已有技能，不设置额外工具、不读取凭据，也不自行调用模型或上传工作资料。分析使用当前会话模型；其费用与数据处理方式取决于宿主和所选服务。包自身没有 `prepare`、`install` 等安装期脚本，无须源码编译。
 
+已发布 [v0.1.0 预构建包](https://github.com/Singapo/ai-job-countdown/releases/tag/v0.1.0)。2026-11-18 已向 DSH 社区目录提交[收录申请 #16593](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/16593)，收录以维护者合并与市场同步为准。
+
 ### 其他支持 Agent Skills 的工具
 
 使用 Skills CLI 从 GitHub 安装：
