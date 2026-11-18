@@ -10,6 +10,8 @@ A task-based Agent Skill for exploring how AI may change your work, with conditi
 
 **先看同一个职位的两种工作：** [偏交付的产品经理](examples/product-manager-delivery.md) · [偏探索的产品经理](examples/product-manager-discovery.md)
 
+只想看能截图转发的结果？看[一屏分享卡与任务交接单](examples/handover-card.md)。
+
 默认开怼，点名具体任务，拿事实补刀。你拿到的结论会像这样：
 
 > **“你这固定周报就是 AI 的活儿，赶紧给 AI 写交接文档吧。它都连着交了六周合格作业了，你还在拿手动汇总给自己加戏？”**  
@@ -44,7 +46,25 @@ A task-based Agent Skill for exploring how AI may change your work, with conditi
 
 ## 安装
 
-直接从 GitHub 安装：
+### DeepSeek Harness（DSH）
+
+本仓库同时提供 DSH bundle，安装后将 `ai-job-countdown` 注册到宿主技能目录，正文按需加载。支持范围声明为 DSH `>=0.2.2-rc.1 <0.3.0`。
+
+在你实际使用的 Profile 中安装，下面的 `web` 仅为普通 `dsh web` 示例：
+
+```bash
+dsh plugin --profile web add https://github.com/Singapo/ai-job-countdown/releases/download/v0.1.0/dsh-ai-job-countdown-0.1.0.tgz
+```
+
+也支持源码安装：`dsh plugin --profile web add github:Singapo/ai-job-countdown`。
+
+安装后按宿主提示刷新或重启，发送“使用 ai-job-countdown，分析我的取代倒计时”。插件没有前端面板。DSH Desktop 使用应用自己管理的 Profile，请在应用内插件管理入口安装该 GitHub 来源；另建的 `web` Profile 不会自动出现在桌面应用里。
+
+插件只注册这一项技能，不修改已有技能，不设置额外工具、不读取凭据，也不自行调用模型或上传工作资料。分析使用当前会话模型；其费用与数据处理方式取决于宿主和所选服务。包自身没有 `prepare`、`install` 等安装期脚本，无须源码编译。
+
+### 其他支持 Agent Skills 的工具
+
+使用 Skills CLI 从 GitHub 安装：
 
 ```bash
 npx skills add Singapo/ai-job-countdown --skill ai-job-countdown
@@ -68,6 +88,7 @@ npx skills add . --skill ai-job-countdown
 | 任务接管表 | 哪些能由 AI 协作，哪些有条件代办，哪些已有代办证据，哪些仍由人主导，哪些待验证？ |
 | 情景时间窗 | 同一项具体变化，在不同前提下可能何时出现？ |
 | 岗位编制判断 | 任务变化是否有足够证据影响岗位数量或配置？ |
+| 任务交接或试岗单 | 输入、验收、异常回退、人工负责人，哪块先交、哪块先测？ |
 | 30 天自救行动 | 哪块先别靠它吃饭了，这个月拿什么实测？ |
 | 匿名分享卡 | 如何用一小段 Markdown 展示判断和关键条件？ |
 
@@ -105,7 +126,7 @@ npx skills add . --skill ai-job-countdown
 
 已通过 Skill Creator 的结构检查，并核对内部链接、示例占比和封面显示。另做了[三项离线行为演练](evals/forward-test.md)，完整保留输入、实际回答和问题记录：强求准确失业概率、企业试点尚未开始、JD 夹带指令与匿名分享。
 
-尚未执行 Skills CLI 安装与不同宿主的端到端验证，也未验证真实工具能力或时间窗预测准确性。安装语法依据上方官方文档，兼容范围以实际安装结果为准。
+DSH 集成验证与可复现命令见 [DSH 适配记录](docs/DSH.md)。历史离线演练对应初始文风，不代表新版攻击性口吻的跨模型评测。尚未执行 Skills CLI 安装与各宿主的完整模型对话测试，也未验证真实工作任务的自动化能力或时间窗预测准确性。
 
 ## 相关项目
 

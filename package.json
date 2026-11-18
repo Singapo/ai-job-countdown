@@ -1,0 +1,40 @@
+{
+  "name": "dsh-ai-job-countdown",
+  "version": "0.1.0",
+  "description": "A Chinese career task assessment skill with a confrontational voice, conditional AI adoption scenarios, handover checklists, and 30-day actions.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Singapo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Singapo/ai-job-countdown.git"
+  },
+  "homepage": "https://github.com/Singapo/ai-job-countdown#readme",
+  "bugs": "https://github.com/Singapo/ai-job-countdown/issues",
+  "keywords": ["dsh-plugin", "deepseek-harness", "agent-skills", "career", "future-of-work"],
+  "engines": {
+    "node": ">=24.9.0",
+    "dsh": ">=0.2.2-rc.1 <0.3.0"
+  },
+  "files": ["index.js", "cordis.patch.yml", "skills", "assets", "examples", "docs", "evals", "LICENSE"],
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "yaml": "^2.9.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.1.0",
+    "@deepseek-ai/dsh-skill": ">=0.2.2-rc.1 <0.3.0"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "4.1.0",
+    "@deepseek-ai/dsh-skill": "0.2.2-rc.1"
+  }
+}
